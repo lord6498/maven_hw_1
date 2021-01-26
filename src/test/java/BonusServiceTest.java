@@ -15,7 +15,7 @@ class BonusServiceTest {
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
 
     }
@@ -31,10 +31,11 @@ class BonusServiceTest {
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
 
     }
+
     @Test
     void shouldCalculateForNotregistredAndUnderLimit() {
         BonusService service = new BonusService();
@@ -46,7 +47,7 @@ class BonusServiceTest {
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
 
     }
@@ -62,7 +63,7 @@ class BonusServiceTest {
 
         // вызываем целевой метод:
         long actual = service.calculate(amount, registered);
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
 
     }
